@@ -1,4 +1,4 @@
 {
-  "functions": { "api/**/*.py": { "runtime": "python3.11" } },
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [{ "source": "/", "destination": "/index.html" }]
 }
